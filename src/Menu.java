@@ -9,7 +9,7 @@ public class Menu {
         System.out.println("2,Xóa");
         System.out.println("3,Xem danh sách các bệnh án");
         System.out.println("4,Thoát");
-        System.out.println("Chon chức năng");
+        System.out.print("Chon chức năng: ");
     }
 
 }
