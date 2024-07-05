@@ -3,7 +3,7 @@ import java.util.Date;
 public class RegularMedicalRecord extends MedicalRecord {
     private double hospitalFee;
 
-    public RegularMedicalRecord(int id, String code, String namePatient, Date hospitalizedDay, Date hospitalDischargeDate, String reasonForHospitalization, double hospitalFee) {
+    public RegularMedicalRecord(int id, String code, String namePatient, String hospitalizedDay, String hospitalDischargeDate, String reasonForHospitalization, double hospitalFee) {
         super(id, code, namePatient, hospitalizedDay, hospitalDischargeDate, reasonForHospitalization);
         this.hospitalFee = hospitalFee;
 

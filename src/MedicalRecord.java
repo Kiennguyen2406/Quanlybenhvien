@@ -4,12 +4,12 @@ public abstract class MedicalRecord {
     private int id;
     private String code;
     private String namePatient;
-    private Date hospitalizedDay;
-    private Date hospitalDischargeDate;
+    private String hospitalizedDay;
+    private String hospitalDischargeDate;
     private String reasonForHospitalization;
 
 
-    public MedicalRecord(int id, String code, String namePatient, Date hospitalizedDay, Date hospitalDischargeDate, String reasonForHospitalization) {
+    public MedicalRecord(int id, String code, String namePatient, String hospitalizedDay, String hospitalDischargeDate, String reasonForHospitalization) {
         this.id = id;
         this.code = code;
         this.namePatient = namePatient;
@@ -42,19 +42,19 @@ public abstract class MedicalRecord {
         this.namePatient = namePatient;
     }
 
-    public Date getHospitalizedDay() {
+    public String getHospitalizedDay() {
         return hospitalizedDay;
     }
 
-    public void setHospitalizedDay(Date hospitalizedDay) {
+    public void setHospitalizedDay(String hospitalizedDay) {
         this.hospitalizedDay = hospitalizedDay;
     }
 
-    public Date getHospitalDischargeDate() {
+    public String getHospitalDischargeDate() {
         return hospitalDischargeDate;
     }
 
-    public void setHospitalDischargeDate(Date hospitalDischargeDate) {
+    public void setHospitalDischargeDate(String hospitalDischargeDate) {
         this.hospitalDischargeDate = hospitalDischargeDate;
     }
 
